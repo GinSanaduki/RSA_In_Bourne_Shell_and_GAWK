@@ -19,6 +19,7 @@ Rand_P=`sh PWGen_IMitation.sh`
 Rand_Q=`sh PWGen_IMitation.sh`
 File_P=`echo "Temp_pq_"$Rand_P".txt"`
 File_Q=`echo "Temp_pq_"$Rand_Q".txt"`
+mkdir -p subdir > /dev/null 2>&1
 
 rm -f Temp_Pseudo_Random_Number_Candidate_*.txt > /dev/null 2>&1
 
