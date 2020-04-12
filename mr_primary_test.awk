@@ -52,7 +52,7 @@ END{
 			}
 			flg = 0;
 			for(p in pl){
-				if(modular_exp(a, p, n) == 1){
+				if(modular_exp(r[a], pl[p], n) == 1){
 					flg++;
 					break;
 				}
