@@ -12,7 +12,7 @@ sh RSA_BS_Inferno.sh 4096
 # 参考サイト
 * Ported in Python version by moajo
 * https://qiita.com/moajo/items/0ea9043f9688b05fa39a
-* RSAを実装する - Qiita
+* RSAを実装する - Qiita  
 おそらくこのページがなければ、こんなものは作ってなかったです。ありがとうございます。  
 
 # 素数を見つけるのに相当マシンパワーを割くのと、運が悪いと本当になかなかみつからないので、
